@@ -11,14 +11,14 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1400px 100vw);
-    height: 70vh;
+    height: 100vh;
     position: relative;
 }
 
-.main .box {
+.main  {
     height: 70vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 1;
     position: absolute;
     background-position: center center;
     top: 0;
@@ -31,6 +31,7 @@ img {
     width: 124px;
     position: relative;
     z-index: 10;
+    margin-top: 16px;
 }
 
 nav {
