@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&family=Sankofa+Display&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    background-image: url("assets/images/bg_files/bg1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1400px 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    background-position: center center;
+    top: 0;
+    background-color: black;
+}
+
+img {
+    filter: invert(21%) sepia(96%) saturate(7423%) hue-rotate(360deg);
+    /* If your SVG is used as an <img> tag, CSS fill won’t work. Instead, use the filter property: */
+    width: 124px;
+    position: relative;
+    z-index: 10;
+}
+
+nav {
+    max-width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 35px;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+body{
+    background-color:black;
+}
+.hero {
+    font-size:0px;
+    font-weight: 100;
+    font-style: normal;
+    height: translateY(calc(100%-55px));
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    position: relative;
+    padding:0 23px; 
+}
+span{
+    font-size:20px;
+    font-weight:bold;
+    gap:20px;
+}
+/* This arow means immediate first child */
+.hero> :nth-child(1) {
+    font-weight: bold;
+    font-size: 48px;
+    text-align:center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: bold;
+    font-size: 48px;
+    text-align:center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: bold;
+    font-size: 48px;
+    text-align:center;
+}
+
+.hero> :nth-child(4) {
+    font-weight: none;
+    font-size: 18px;
+    text-align:center;
+}
+.sepration{
+    height:10px;
+    background-color:gray;
+}
