@@ -157,17 +157,17 @@ span {
 }
 .secImg img {
   width: 30vw;
-  position: absolute;
+position:relative;
   align-items: center;
-  justify-content: center;
-  right: 30;
+  justify-content:start ;
+  left: 30px;
 }
 .secImg video {
-  position: absolute;
-  align-items: 50px;
-  justify-content: center;
-  bottom: -140px;
-  right: 10px;
+  align-items:100px;
+  justify-content: flex-end;
+  position:relative;
+  top:-300px;
+  left: 80px;
 }
 section.first > div {
   display: flex;
