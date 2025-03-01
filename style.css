@@ -147,6 +147,38 @@ span {
   /*  background-color:rgba(23, 23, 23, 0.2)  is use for background color transparent */
   border: 1px solid rgba(202, 8, 8, 0.7);
 }
+.first-two {
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  align-items: center;
+}
+.first-three {
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  align-items: center;
+}
+.first-four {
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  align-items: center;
+}
+.first-five {
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  align-items: center;
+}
 .first {
   color: white;
   display: flex;
@@ -177,6 +209,46 @@ section.first > div {
   font-size: 48px;
 }
 .first > div :nth-child(2) {
+  font-size: 20px;
+}
+section.first-two > div {
+  display: flex;
+  flex-direction: column;
+}
+.first-two > div :first-child {
+  font-size: 48px;
+}
+.first-two > div :nth-child(2) {
+  font-size: 20px;
+}
+section.first-three > div {
+  display: flex;
+  flex-direction: column;
+}
+.first-three > div :first-child {
+  font-size: 48px;
+}
+.first-three > div :nth-child(2) {
+  font-size: 20px;
+}
+section.first-four > div {
+  display: flex;
+  flex-direction: column;
+}
+.first-four > div :first-child {
+  font-size: 48px;
+}
+.first-four > div :nth-child(2) {
+  font-size: 20px;
+}
+section.first-five > div {
+  display: flex;
+  flex-direction: column;
+}
+.first-five > div :first-child {
+  font-size: 48px;
+}
+.first-five > div :nth-child(2) {
   font-size: 20px;
 }
 .faqbox {
