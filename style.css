@@ -251,8 +251,31 @@ section.first-five > div {
 .first-five > div :nth-child(2) {
   font-size: 20px;
 }
+.faq h2{
+  font-size: 38px;
+  text-align: center;
+}
+.faq{
+  font-size:24px;
+  background:black;
+  color:white;
+  justify-items: center;
+  padding: 34px;
+}
 .faqbox {
   display: flex;
-  background-color: gray;
-  padding: 34px;
+  background-color: rgb(66, 62, 62);
+  color:white;
+  padding: 24px;
+  margin:34px auto;
+  justify-content:space-between;
+  width:60vw;
+  cursor: pointer;
+}
+.faqbox:hover{
+  background-color: rgb(85, 80, 80)
+}
+.faqbox svg{
+  filter: invert();
+  /* filter:invert() is use to changing the color of svg from black to white  */
 }
