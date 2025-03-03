@@ -279,3 +279,33 @@ section.first-five > div {
   filter: invert();
   /* filter:invert() is use to changing the color of svg from black to white  */
 }
+footer{
+  color:white;
+  max-width:60vw;
+  margin:auto;
+
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color:white;
+  padding:23px;
+} 
+.footer-items{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+footer .questions{
+  color:white;
+  margin:2px 5vw;
+  display:flex;
+  padding:3px 0;
+}
+.Questions{
+  padding:22px 5px;
+}
+.footer a{
+  text-decoration: none;
+  color:white;
+}
