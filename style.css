@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
   background-size: max(1400px 100vw);
   height: 70vh;
-  position: relative;
+  position: static;
 }
 
 .main .box {
@@ -28,7 +28,7 @@
 .firstImg {
   filter: invert(21%) sepia(96%) saturate(7423%) hue-rotate(360deg);
   /* If your SVG is used as an <img> tag, CSS fill won’t work. Instead, use the filter property: */
-  width: 124px;
+  width: 130px;
   position: relative;
   z-index: 10;
 }
@@ -186,20 +186,35 @@ span {
   max-width: 70vw;
   margin: auto;
   align-items: center;
+  flex-wrap:wrap;
+}
+@media screen and (max-width:500px) {
+  body{
+    background-color:red;
+}
+.first{
+  flex-wrap:wrap;
+}
+.secImg img{
+  overflow: hidden;
+}
 }
 .secImg img {
-  width: 30vw;
+  width: 27vw;
 position:relative;
   align-items: center;
   justify-content:start ;
   left: 30px;
+
 }
 .secImg video {
-  align-items:100px;
+  align-items:98px;
   justify-content: flex-end;
   position:relative;
-  top:-300px;
+  top: -300px;
   left: 80px;
+  width:310px;
+  height:205px;
 }
 section.first > div {
   display: flex;
@@ -266,8 +281,8 @@ section.first-five > div {
   display: flex;
   background-color: rgb(66, 62, 62);
   color:white;
-  padding: 24px;
-  margin:34px auto;
+  padding: 34px;
+  margin:24px auto;
   justify-content:space-between;
   width:60vw;
   cursor: pointer;
