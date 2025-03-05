@@ -208,13 +208,13 @@ position:relative;
 
 }
 .secImg video {
-  align-items:98px;
+  align-items: 98px;
   justify-content: flex-end;
-  position:relative;
-  top: -300px;
-  left: 80px;
-  width:310px;
-  height:205px;
+  position: relative;
+  top: -313px;
+  left: 79px;
+  width: 310px;
+  height: 196px;
 }
 section.first > div {
   display: flex;
